@@ -42,8 +42,9 @@ Revenue peaks in **Q3 ($13M+) and Q4 ($14M+)** , with spikes in **July and Octob
 ## 🔸 3. Revenue Drivers (Volume vs Value)
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/c0a48e65-75af-4489-9a80-36b104511dc3" width="650" style="max-width:100%; margin-bottom:10px;"/>
+  <img alt="Screenshot 2026-03-19 205631" src="https://github.com/user-attachments/assets/b13e3187-6a0a-4d72-b88f-566a30d54458" width="650" style="max-width:100%; margin-bottom:10px;"/>
 </p>
+
 
 ### 📊 Key Findings & Insights
 Revenue peaks (~$5M) while order volume fluctuates (~2K–6K). Some months maintain revenue despite lower volume.  
