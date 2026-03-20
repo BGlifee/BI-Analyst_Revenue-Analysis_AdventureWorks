@@ -61,4 +61,7 @@ Revenue peaks (~$5M) while order volume fluctuates (~2K–6K). Some months maint
 - Revenue is heavily dependent on the **Bike category**, creating both strength and risk  
 - **High AOV ($3.12K)** indicates premium purchasing behavior  
 - **Strong seasonality (Q3–Q4)** highlights the importance of timing  
-- Revenue is driven more by **customer value (AOV)** than by order volume  
+- Revenue is driven more by **customer value (AOV)** than by order volume
+
+## 📌 Dashboard
+- <img src="assets/Revenue-Analysis_AdventureWorks.gif" width="900">
