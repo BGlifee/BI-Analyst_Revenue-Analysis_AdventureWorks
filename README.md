@@ -1,9 +1,5 @@
 # 📊 aim and fire away
 
-<img width="1167" height="719" alt="image" src="https://github.com/user-attachments/assets/b66dd1eb-2587-4942-b937-ce22b60d73f8" />
-
-
-
 ## 🔍 Executive Summary
 "Adventture works' market
 Revenue is primarily driven by high-value bike purchases, with strong seasonal demand and significant influence from AOV rather than order volume.
