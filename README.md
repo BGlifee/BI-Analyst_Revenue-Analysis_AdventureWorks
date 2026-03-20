@@ -1,9 +1,5 @@
-# 📊 aim and fire away
-
-## 🔍 Executive Summary
-"Adventture works' market
-Revenue is primarily driven by high-value bike purchases, with strong seasonal demand and significant influence from AOV rather than order volume.
-
+# 🔍 Executive Summary
+Adventure Works revenue is driven primarily by high-value bike purchases, with strong seasonal demand patterns and a greater impact from average order value (AOV) than order volume.
 ---
 
 # 📊 Revenue Analysis Summary
@@ -11,9 +7,9 @@ Revenue is primarily driven by high-value bike purchases, with strong seasonal d
 ---
 
 ## 🔶 1. Revenue Structure
-
-<img width="285" height="170" alt="image" src="https://github.com/user-attachments/assets/ce3981ce-781e-496a-93ca-15f0995b1e42" />
-
+<p align="center">
+  <img width="285" height="170" alt="image" src="https://github.com/user-attachments/assets/ce3981ce-781e-496a-93ca-15f0995b1e42" />
+</p>
 
 ### 📊 Key Findings & Insights
 Bike category generates **$36.07M (~84%)** of total revenue ($43.11M), with **~10.85K customers** and a high **AOV of $3.12K**.  
@@ -28,8 +24,9 @@ Bike category generates **$36.07M (~84%)** of total revenue ($43.11M), with **~1
 
 ## 🔷 2. Time Dimension (Seasonality)
 
-<img width="649" height="181" alt="image" src="https://github.com/user-attachments/assets/4439a1c6-cc94-4c5f-9a10-e34c3e3ac9f9" />
-
+<p align="center">
+  <img width="649" height="181" alt="image" src="https://github.com/user-attachments/assets/4439a1c6-cc94-4c5f-9a10-e34c3e3ac9f9" />
+</p>
 
 ### 📊 Key Findings & Insights
 Revenue peaks in **Q2 (~$10M+) and Q3 (~$12M+)** , with spikes in **July and October**.  
@@ -44,8 +41,9 @@ Revenue peaks in **Q2 (~$10M+) and Q3 (~$12M+)** , with spikes in **July and Oct
 
 ## 🔸 3. Revenue Drivers (Volume vs Value)
 
-<img width="495" height="181" alt="image" src="https://github.com/user-attachments/assets/c0a48e65-75af-4489-9a80-36b104511dc3" />
-
+<p align="center">
+  <img width="495" height="181" alt="image" src="https://github.com/user-attachments/assets/c0a48e65-75af-4489-9a80-36b104511dc3" />
+</p>
 
 ### 📊 Key Findings & Insights
 Revenue peaks (~$5M) while order volume fluctuates (~2K–6K). Some months maintain revenue despite lower volume.  
