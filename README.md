@@ -8,7 +8,7 @@ Adventure Works revenue is driven primarily by high-value bike purchases, with s
 
 ## 🔶 1. Revenue Structure
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/ce3981ce-781e-496a-93ca-15f0995b1e42" width="450"/>
+  <img src="https://github.com/user-attachments/assets/ce3981ce-781e-496a-93ca-15f0995b1e42" width="450" style="max-width:100%;"/>
 </p>
 
 ### 📊 Key Findings & Insights
@@ -25,7 +25,7 @@ Bike category generates **$36.07M (~84%)** of total revenue ($43.11M), with **~1
 ## 🔷 2. Time Dimension (Seasonality)
 
 <p align="center">
-  <img width="649" height="181" alt="image" src="https://github.com/user-attachments/assets/4439a1c6-cc94-4c5f-9a10-e34c3e3ac9f9" />
+  <img src="https://github.com/user-attachments/assets/4439a1c6-cc94-4c5f-9a10-e34c3e3ac9f9" width="700" style="max-width:100%; margin-bottom:10px;"/>
 </p>
 
 ### 📊 Key Findings & Insights
@@ -42,7 +42,7 @@ Revenue peaks in **Q3 ($13M+) and Q4 ($14M+)** , with spikes in **July and Octob
 ## 🔸 3. Revenue Drivers (Volume vs Value)
 
 <p align="center">
-  <img width="495" height="181" alt="image" src="https://github.com/user-attachments/assets/c0a48e65-75af-4489-9a80-36b104511dc3" />
+  <img src="https://github.com/user-attachments/assets/c0a48e65-75af-4489-9a80-36b104511dc3" width="650" style="max-width:100%; margin-bottom:10px;"/>
 </p>
 
 ### 📊 Key Findings & Insights
