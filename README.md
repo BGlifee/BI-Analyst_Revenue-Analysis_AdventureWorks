@@ -8,7 +8,7 @@ Adventure Works revenue is driven primarily by high-value bike purchases, with s
 
 ## 🔶 1. Revenue Structure
 <p align="center">
-  <img width="285" height="170" alt="image" src="https://github.com/user-attachments/assets/ce3981ce-781e-496a-93ca-15f0995b1e42" />
+  <img src="https://github.com/user-attachments/assets/ce3981ce-781e-496a-93ca-15f0995b1e42" width="450"/>
 </p>
 
 ### 📊 Key Findings & Insights
@@ -29,11 +29,11 @@ Bike category generates **$36.07M (~84%)** of total revenue ($43.11M), with **~1
 </p>
 
 ### 📊 Key Findings & Insights
-Revenue peaks in **Q2 (~$10M+) and Q3 (~$12M+)** , with spikes in **July and October**.  
+Revenue peaks in **Q3 ($13M+) and Q4 ($14M+)** , with spikes in **July and October**.  
 → Indicates **strong seasonality** and **promotion/peak-driven demand**.
 
 ### 📌 Recommendation
-- Align inventory with **Q2–Q3 demand peaks**  
+- Align inventory with **Q3–Q4 demand peaks**  
 - Run major campaigns in **July & October**  
 - Use off-season for **discount & demand stimulation**  
 
@@ -59,5 +59,5 @@ Revenue peaks (~$5M) while order volume fluctuates (~2K–6K). Some months maint
 ## 📌 Key Takeaways
 - Revenue is heavily dependent on the **Bike category**, creating both strength and risk  
 - **High AOV ($3.12K)** indicates premium purchasing behavior  
-- **Strong seasonality (Q2–Q3)** highlights the importance of timing  
+- **Strong seasonality (Q3–Q4)** highlights the importance of timing  
 - Revenue is driven more by **customer value (AOV)** than by order volume  
