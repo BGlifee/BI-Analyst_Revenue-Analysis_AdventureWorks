@@ -5,7 +5,7 @@ __pycache__/
 *.pyd
 .ipynb_checkpoints/
 
-# Jupyter Notebook (output 제거 원하면)
+# Jupyter Notebook 
 *.ipynb_checkpoints
 
 # VSCode
@@ -15,7 +15,7 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Data files (raw data 숨기기)
+# Data files 
 data/
 *.csv
 
