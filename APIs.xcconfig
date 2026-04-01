@@ -1,0 +1,11 @@
+//
+//  Secrets.xcconfig
+//  My App
+//
+//  Created by Ari on 2026/03/31.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://apyhub.com/workspace/hisukim33/applications/58164
+
+apyhub_APP_KEY = APY0gzWUGZB51rMNociqJpGLi0V9RkcRriA7OPspMs3wrHCacxqVkLdI9pJ1Gwi5xC6bjV
