@@ -42,3 +42,4 @@ LEFT JOIN Production.ProductSubcategory ps
 LEFT JOIN Production.ProductCategory pc
     ON ps.ProductCategoryID = pc.ProductCategoryID
 WHERE pc.Name IS NULL;
+

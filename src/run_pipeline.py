@@ -30,7 +30,7 @@ def get_connection(cfg):
         f"Trusted_Connection={db['trusted_connection']};"
         f"TrustServerCertificate=yes;"
     )
-    
+
     return pyodbc.connect(conn_str)
 
 
