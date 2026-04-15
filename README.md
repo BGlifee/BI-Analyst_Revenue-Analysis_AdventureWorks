@@ -1,5 +1,15 @@
 # 🔍 Executive Summary
-Adventure Works revenue is driven primarily by high-value bike purchases, with strong seasonal demand patterns and a greater impact from average order value (AOV) than order volume.
+Adventure Works is a global e-commerce company that sells athletic goods and gear, particularly bikes and related products.
+
+The company has accumulated a significant amount of sales data and is now ready to use it to optimize its marketing strategy. This analysis examines that data to uncover key insights that can support Adventure Works' commercial growth.
+
+Insights and recommendations are presented across the following key areas:
+
+ - **Sales Trends Analysis**: Evaluation of historical sales patterns at both global and regional levels, with a focus on **Revenue, OrderVolume, and Average Order Value(AOV).**
+ - **Product Level Performance**: Analysis of Adventure Works' product lines to understand their contribution to overall sales performance.
+ - **Loyalty Program expactation**: Assessment of the feasibility of a loyalty program based on customer purchase behavior and repeat buying patterns.
+ - **Regional Comparisons**: Evaluation of sales and order performance across different regions.
+
 ---
 
 # 📊 Revenue Analysis Summary
@@ -12,8 +22,10 @@ Adventure Works revenue is driven primarily by high-value bike purchases, with s
 </p>
 
 ### 📊 Key Findings & Insights
-Bike category generates **$36.07M (~84%)** of total revenue ($43.11M), with **~10.85K customers** and a high **AOV of $3.12K**.  
-→ Revenue is **highly concentrated** and driven by **high-value purchases**, indicating both strong performance and **concentration risk**.
+The bike category accounts for **~84% of total revenue ($36.07M out of $43.11M)**, driven by a relatively small but high-value custoemr base (~10.85K customers, AOV:$3.12K).
+While this highlights strong category performance and premium positioning, it also exposes the business to **category concentration risk.**
+A decline in bike sales would likely have a **disproportionate impact on total revenue**.
+
 
 ### 📌 Recommendation
 - Diversify revenue via **Accessories / Apparel bundling**  
