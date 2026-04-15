@@ -41,8 +41,8 @@ A decline in bike sales would likely have a **disproportionate impact on total r
 </p>
 
 ### 📊 Key Findings & Insights
-Revenue peaks in **Q3 ($13M+) and Q4 ($14M+)** , with spikes in **July and October**.  
-→ Indicates **strong seasonality** and **promotion/peak-driven demand**.
+Revenue demonstrates clear seasonality,peaking in **Q3($13M+) and Q4($14M+)**, with significant spikes in **July and October**. This suggests that performance is heavily influenced by **seasonal demand cycles and promotional periods.
+**
 
 ### 📌 Recommendation
 - Align inventory with **Q3–Q4 demand peaks**  
@@ -59,8 +59,8 @@ Revenue peaks in **Q3 ($13M+) and Q4 ($14M+)** , with spikes in **July and Octob
 
 
 ### 📊 Key Findings & Insights
-Revenue peaks (~$5M) while order volume fluctuates (~2K–6K). Some months maintain revenue despite lower volume.  
-→ **AOV is a key driver**, not just order volume.
+Revenue reaches peaks of around **$5M**,even as order volume varies significantly between **~2K and 6K orders.** In several periods, revenue remains strong despite lower transaction counts, indicating that performance is not soley volume-driven.
+This pattern highlights **AOV as a primary revenue driver**,suggesting that higher-value transactions have a greater impact on overall performance than sheer order volume.
 
 ### 📌 Recommendation
 - Increase AOV via **upselling & bundling**  
