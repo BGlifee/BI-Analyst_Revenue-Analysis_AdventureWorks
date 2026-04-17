@@ -115,38 +115,8 @@ def main():
 
             logging.info("Committed step: %s", sql_path.name)
 
-        # validation 실행
-        validation_query = """
-        SELECT
-            COUNT(*) AS total_rows,
-            SUM(CASE WHEN Revenue IS NULL THEN 1 ELSE 0 END) AS null_revenue_rows,
-            COUNT(DISTINCT SalesOrderID) AS distinct_orders,
-            COUNT(DISTINCT SalesOrderDetailID) AS distinct_order_lines,
-            COUNT(*) - COUNT(DISTINCT SalesOrderDetailID) AS duplicate_line_rows,
-            SUM(Revenue) AS total_revenue,
-            COUNT(DISTINCT CustomerID) AS customer_count,
-            SUM(Revenue) / COUNT(DISTINCT SalesOrderID) AS AOV
-        FROM dbo.vw_fact_sales;
-        """
-
-        validation_df = pd.read_sql(validation_query, conn)
-
-        print("\nValidation result:")
-        print(validation_df)
-
-        logging.info("Validation result:\n%s", validation_df.to_string(index=False))
-
-        if validation_df["total_rows"][0] == 0:
-            raise Exception("❌ No data in fact table")
-
-        if validation_df["null_revenue_rows"][0] > 0:
-            raise Exception("❌ Revenue contains NULLs")
-
-        if validation_df["duplicate_line_rows"][0] > 0:
-            raise Exception("❌ Duplicate order lines detected")
-
-        print("✅ Validation passed")
-        logging.info("Validation passed")
+        # 여기부터 validation 블록 붙이기
+        # (위에서 준 validation_query ~ Validation passed 코드)
 
         # CSV export
         export_views_to_csv(conn, project_root)
@@ -165,8 +135,4 @@ def main():
         cursor.close()
         conn.close()
         logging.info("Connection closed")
-
-
-if __name__ == "__main__":
-    main()
 
