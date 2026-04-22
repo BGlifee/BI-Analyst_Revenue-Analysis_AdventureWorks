@@ -251,6 +251,24 @@ def run_validation(conn):
 
     return validation_df
 
+def write_pipeline_log(cursor, pipeline_name, status, message):
+    insert_sql = """
+    INSERT INTO analytics.pipeline_run_log (
+        run_ts,
+        pipeline_name,
+        status,
+        message
+    )
+    VALUES (?, ?, ?, ?)
+    """
+
+    cursor.execute(
+        insert_sql,
+        datetime.now(),
+        pipeline_name,
+        status,
+        message
+    )
 
 def main():
     project_root = Path(__file__).resolve().parents[1]
@@ -259,6 +277,8 @@ def main():
     cfg = load_config()
     conn = get_connection(cfg)
     cursor = conn.cursor()
+
+    pipeline_name = "adventureworks_pipeline"
 
     try:
         logging.info("Pipeline started")
@@ -282,12 +302,29 @@ def main():
         export_views_to_csv(conn, project_root)
         logging.info("CSV export completed")
 
+        write_pipeline_log(
+            cursor,
+            pipeline_name,
+            "SUCCESS",
+            "Pipeline completed successfully"
+        )
+        conn.commit()
+
         print("Pipeline completed successfully.")
         print(f"Log saved to: {log_path}")
         logging.info("Pipeline completed successfully")
 
     except Exception as e:
         conn.rollback()
+
+        write_pipeline_log(
+            cursor,
+            pipeline_name,
+            "FAILED",
+            str(e)
+        )
+        conn.commit()
+
         print(f"Pipeline failed: {e}")
         logging.exception("Pipeline failed")
 
@@ -295,7 +332,6 @@ def main():
         cursor.close()
         conn.close()
         logging.info("Connection closed")
-
 
 if __name__ == "__main__":
     main()
